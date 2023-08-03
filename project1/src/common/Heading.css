@@ -1,0 +1,23 @@
+.heading{
+    /* background-color: red; */
+    margin-top: 100px;
+    text-align: center;
+    line-height: 25px;
+}
+.heading h1{
+    font-size: 40px;
+}
+.heading p{
+    color: grey;
+    text-transform: capitalize;
+}
+.container5{
+    background-color: rgb(6, 6, 81);
+}
+.container5 h1{
+    color: white;
+    padding-top: 30px ;
+}
+.container5 p{
+    color: grey;
+}

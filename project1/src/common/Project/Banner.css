@@ -1,0 +1,27 @@
+.container4{
+   
+    margin: 30px;
+    height:450px ;
+}
+.banner_items{
+    padding: 30px;
+}
+.banner_items img{
+    width: 670px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.banner_items .details_banner{
+   color: orange;
+   font-size: 2rem;
+   line-height: 0;
+   position: relative;
+   top: -16rem;
+   left: 3rem;
+}
+.container4 .box3:hover img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.1s ease-in-out;
+} 

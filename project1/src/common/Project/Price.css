@@ -1,0 +1,60 @@
+.price_container{
+    height:80vh ;
+   
+}
+.price_container .price_box{
+    /* background-color: white; */
+    margin-top: 20px;
+    line-height: 0;
+    display: flex;
+    justify-content: space-around;
+    
+    color: white;
+    
+}
+.price_box h2{
+    color: green;
+    font-size: 2rem;
+ 
+    
+}
+.price_box h1{
+    color: white;
+    font-size: 4rem;
+    
+}
+.price_box h1 span{
+    font-size:30px ;
+}
+.price_box h1 label{
+    color: grey;
+    font-size: 15px;
+}
+.price_box p{
+    color: grey;
+}
+.btn-price{
+    margin-top: 20px;
+    width: 130px;
+    border-radius: 15px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+}
+.btn-price:hover{
+    background-color: rgb(107, 78, 25);
+}
+.price_box ul li{
+    list-style: none;
+    padding: 15px;
+    /* font-size: 20px; */
+}
+.price_box ul{
+    position: relative;
+    right: 60px;
+}
+.price_box ul li icon{
+    color: green;
+}

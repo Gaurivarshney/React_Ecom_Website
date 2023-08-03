@@ -1,0 +1,107 @@
+
+.container3{
+    /* background-color: red; */
+    /* padding-left: 20px; */
+  
+    margin: 50px;
+    /* width: 100%; */
+}
+.product-items img{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+.product-items .box{
+    line-height: 0;
+    /* background-color: red; */
+    /* width:410px ; */
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    height:470px ;
+}
+.box{
+    display: flex;
+}
+.product-items .overlay .btn{
+   position: relative;
+   /* top: -10rem; */
+   left: 7rem;
+   padding: 10px;
+   margin-right: 10px;
+   border-radius: 50%;
+   background-color: orange;
+   border: none;
+   color: white;
+   /* display: none; */
+}
+.product-items .details{
+    line-height: 3px;
+}
+.product-items .box:hover img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.1s ease-in-out;
+}
+.product-items .overlay span{
+    position: relative;
+    top: -10rem;
+    /* left: rem; */
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    /* background-color: orange; */
+    border: none;
+    color: white;
+    display: none;
+}
+.product-items .box:hover span{
+    display: block;
+}
+.product-items .box:hover .details{
+     /* display: none; */
+     position: relative;
+     top: -10rem;
+     color: white;
+     background-color: orange;
+     height: 100px;
+     /* width: 280px; */
+     padding: 10px;
+
+ }
+ .onClickImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 100px;
+    left:100px;
+    right: 100px;
+    /* background-color: grey; */
+ }
+ .modelopen .onClickImage img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 600px;
+width: 600px;
+z-index: 999999;
+ }
+ .modelClose img{
+display: none;
+ }
+ .modelClose .button{
+    display: none;
+ }
+ .button{
+    position: relative;
+    top: -18rem;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+   
+
+ }

@@ -1,0 +1,211 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    border-bottom: 1px solid lightgray;
+   background-color: whitesmoke;
+   height: 75px;
+   position: sticky;
+   top: 0;
+   z-index: 999;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.logo-left{
+    margin-left: 30px;
+    /* display: none; */
+}
+.mobile-nav-btn{
+    /* display: none; */
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+}
+.mobile-nav-btn{
+    display: none;
+}
+
+.logo-right{
+    margin-left: 50px;
+}
+.center .center-left menu{
+/* text-decoration: none;
+ */
+ margin-right: 80px;
+}
+.mobile-nav{
+    display: block;
+    position: relative;
+    top: 0;
+}
+.center .center-left a{
+    color: rgb(62, 60, 60);
+    font-weight: bold;
+    font-size: 1rem;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.center .center-left a:hover{
+    color: chocolate;
+}
+.center-right input{
+    border: none;
+    width: 100%;
+    height: 90%;
+}
+
+.center-right{
+    border: 1px solid lightgray;
+    width: 300px;
+    border-radius: 15px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    background-color: white;
+}
+.right{
+    margin-right: 20px;
+ 
+}
+.right .icons{
+    padding-right: 40px;
+}
+.myCart{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    height: 30px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(244, 113, 6);
+    padding: 2px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.myCart button{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: white;
+   
+}
+.myCart:hover{
+    background-color: rgb(187, 130, 89);
+}
+
+.showCart{
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    min-height: 100px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    z-index: 999;
+    /* overflow-y: scroll; */
+    
+}
+.hideCart{
+    display: none;
+}
+
+
+.showCart .empty img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+hr{
+    width: 100%;
+}
+.details_content .details_content_img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.details_title{
+    padding: 5px;
+}
+ .details_content_delete .icony{
+    font-size: 3rem;
+    padding-right: 3px;
+    color: red;
+}
+
+
+@media (max-width: 998px)
+{
+    header{
+        height: 75px;
+    }
+    .center-left{
+        display: none;
+    }
+    .center-right{
+        width: 50%;
+        margin-left: 130px;
+    }
+    .icons{
+        display: none;
+    }
+    .mobile-nav-btn{
+        display: block;
+    }
+    .mobile-menu-link {
+        grid-column: 2/4;
+        position: relative;
+        z-index: 99;
+      }
+    
+      .mobile-menu-link {
+        background-color: white;
+        height: 20rem;
+        position: absolute;
+       width: 100%;
+       left: 0;
+        top: 75px;
+        display: grid;
+        grid-column: 2/5;
+        align-items: center;
+        padding-left: 3rem;
+        transition: all 2s linear;
+        transform-origin: top;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+    
+      .mobile-menu-link ul {
+        height: 20rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: start;
+      }
+    
+      .mobile-menu-link ul li:first-child {
+        transition-delay: 0.2s;
+      }
+    
+}
